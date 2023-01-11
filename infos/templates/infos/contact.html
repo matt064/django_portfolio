@@ -1,0 +1,18 @@
+{% extends 'infos/base.html' %}
+{% block nav_item_about %}active{% endblock nav_item_about %} 
+
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+<h1 id="color">Kontakt</h1>
+<ul>
+    <li><b>email:</b> goku@dbz.com</li>
+    <li><b>telefon:</b> 123456777</li>
+</ul>
+<p class="second"><b>Wyślij wiadomość</b></p>
+
+<form>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Prześlij">
+</form>
+{% endblock %}

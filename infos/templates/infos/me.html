@@ -1,0 +1,17 @@
+{% extends 'infos/base.html' %}
+{% block nav_item_about %}active{% endblock nav_item_about %} 
+{% load static %}
+
+{% block title %}Me{% endblock %}
+
+{% block content %}
+
+<h2> O Mnie </h2>
+<br />
+<img src="{% static 'Son_Goku.jpg' %}" title="Goku" width="150px" heigth="150px">
+<br />
+<br />
+<p><b>imie</b>: Goku</p>
+<p><b>nazwisko</b>: Kakarot</p>
+
+{% endblock %}
